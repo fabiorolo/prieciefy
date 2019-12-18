@@ -26,7 +26,7 @@ def getAvailableStores():
     f = []
     strToReturn = ""
 
-    for (dirpath, dirnames, filenames) in walk("../files"):
+    for (dirpath, dirnames, filenames) in walk("files"):
         f.extend(filenames)
         break
     
